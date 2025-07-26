@@ -1,0 +1,14 @@
+Screen {
+    layout: vertical;
+}
+
+TextLog {
+    height: 1fr;
+    overflow-y: auto;
+    border: round $primary;
+    margin: 1 0;
+}
+
+#thought_input, #mood_select {
+    margin-bottom: 1;
+}
